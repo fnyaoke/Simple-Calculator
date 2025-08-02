@@ -71,11 +71,3 @@ Thanks to the open-source Python community and Power Learn Project beginner tuto
 ```markdown
 ![Screenshot of the calculator in action](screenshot.png)
 
-
-
-
-
-
-
-
-Ask ChatGPT
