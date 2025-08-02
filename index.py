@@ -9,5 +9,14 @@ This program asks the user to input two numbers and a mathematical operation
 requested operation and prints the result in a readable format.
 
 """
+# Ask the user to input the first number
+num1 = input("Enter the first number: ")
+
+# Ask the user to input the second number
+num2 = input("Enter the second number: ")
+
+# Ask the user to input the operation (+, -, *, /)
+operation = input("Enter the operation (+, -, *, /): ")
+
 
 
