@@ -22,6 +22,29 @@ operation = input("Enter the operation (+, -, *, /): ")
 try:
     num1 = float(num1)
     num2 = float(num2)
+    
+   # Perform the operation based on user input
+    if operation == '+':
+        result = num1 + num2
+        print(f"{num1} + {num2} = {result}")
+    elif operation == '-':
+        result = num1 - num2
+        print(f"{num1} - {num2} = {result}")
+    elif operation == '*':
+        result = num1 * num2
+        print(f"{num1} * {num2} = {result}")
+    elif operation == '/':
+        if num2 != 0:
+            result = num1 / num2
+            print(f"{num1} / {num2} = {result}")
+        else:
+            print("Error: Cannot divide by zero.")
+    else:
+        print("Error: Invalid operation. Please use +, -, *, or /.")
+
+except ValueError:
+    # Handle cases where input is not a valid number
+    print("Error: Please enter valid numbers.")
 
  
 
