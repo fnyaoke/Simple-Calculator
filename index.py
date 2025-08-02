@@ -18,5 +18,10 @@ num2 = input("Enter the second number: ")
 # Ask the user to input the operation (+, -, *, /)
 operation = input("Enter the operation (+, -, *, /): ")
 
+# Convert the input strings to float to allow decimals
+try:
+    num1 = float(num1)
+    num2 = float(num2)
 
+ 
 
